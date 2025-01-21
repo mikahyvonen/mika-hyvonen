@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hover Image Effect</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+        }
+
+        .hover-container {
+            position: relative;
+            display: inline-block;
+            margin-right: 20px;
+        }
+
+        .hover-container img {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 200px;
+            height: auto;
+            display: none;
+            pointer-events: none; /* Prevent image from interfering with mouse events */
+        }
+
+        .hover-container:hover img {
+            display: block;
+        }
+
+        .always-visible {
+            margin-top: 20px;
+        }
+
+        .always-visible img {
+            width: 200px;
+            height: auto;
+            display: inline-block;
+            margin-right: 20px;
+        }
+    </style>
+</head>
+<body>
+    <p>
+        Hover over these <span class="hover-container">words 1
+            <img src="https://cdn.glitch.global/3938cb0d-8b66-43e6-93d0-95eed83eb0d2/sjalvbild.png?v=1737376230567" alt="Hover Image 1">
+        </span>
+        <span class="hover-container">words 2
+            <img src="https://via.placeholder.com/200/00FF00" alt="Hover Image 2">
+        </span>
+        <span class="hover-container">words 3
+            <img src="https://via.placeholder.com/200/0000FF" alt="Hover Image 3">
+        </span>
+        to see different images.
+    </p>
+
+    <div class="always-visible">
+        <img src="https://via.placeholder.com/200/FFFF00" alt="Always Visible Image 1">
+        <img src="https://via.placeholder.com/200/FF00FF" alt="Always Visible Image 2">
+        <img src="https://via.placeholder.com/200/00FFFF" alt="Always Visible Image 3">
+    </div>
+
+    <script>
+        const hoverContainers = document.querySelectorAll('.hover-container');
+
+        hoverContainers.forEach(container => {
+            const image = container.querySelector('img');
+
+            container.addEventListener('mousemove', event => {
+                // Update image position to follow the cursor
+                image.style.left = event.clientX + 0 + 'px'; // Offset for better visibility
+                image.style.top = event.clientY + 0 + 'px';
+            });
+        });
+    </script>
+</body>
+</html>

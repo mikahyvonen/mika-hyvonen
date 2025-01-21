@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hover Image Effect</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+        }
+
+        .hover-container {
+            position: relative;
+            display: inline-block;
+        }
+
+        .hover-container img {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 200px;
+            height: auto;
+            display: none;
+            pointer-events: none; /* Prevent image from interfering with mouse events */
+        }
+
+        .hover-container:hover img {
+            display: block;
+        }
+    </style>
+</head>
+<body>
+    <p>
+        Hover over this <span class="hover-container">text
+            <img src="https://cdn.glitch.global/3938cb0d-8b66-43e6-93d0-95eed83eb0d2/sjalvbild.png?v=1737376230567" alt="Hover Image">
+        </span> to see an image.
+    </p>
+
+    <script>
+        const hoverContainers = document.querySelectorAll('.hover-container');
+
+        hoverContainers.forEach(container => {
+            const image = container.querySelector('img');
+
+            container.addEventListener('mousemove', event => {
+                // Update image position to follow the cursor
+                image.style.left = event.clientX + 10 + 'px'; // Offset for better visibility
+                image.style.top = event.clientY + 10 + 'px';
+            });
+        });
+    </script>
+</body>
+</html>

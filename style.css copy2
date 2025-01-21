@@ -6,7 +6,6 @@
   --border: none;
   --transition: 0.1s;
   --font: "DM sans", sans-serif;
-  color-scheme: light;
 }
 
 hr {
@@ -15,13 +14,7 @@ hr {
 
 html {
   scrollbar-width: thin;
-  scrollbar-color: var(--yellow) yellow;
-}
-
-@media screen and (max-width: 1100px) {
-  html {
-    scrollbar-color: auto;
-  }
+  /*scrollbar-color: var(--yellow) yellow;*/
 }
 
 body {
@@ -29,12 +22,6 @@ body {
   margin: 0px;
   padding: 0px;
   overflow-y: scroll;
-  ::selection {
-  /* Change highlight background color to black */
-  background: var(--yellow);
-  /* Change highlight text color to red */
-  color: var(--black);
-}
 }
 
 h2 {
@@ -48,12 +35,6 @@ h2 {
   line-height: 150%;
 }
 
-@media screen and (max-width: 1100px) {
-  h2 {
-    font-size: 11pt;
-  }
-}
-
 p {
   color: var(--white);
   font-family: var(--font);
@@ -64,21 +45,44 @@ p {
   line-height: 150%;
 }
 
-@media screen and (max-width: 1100px) {
-  p {
-    font-size: 11pt;
-  }
+.footer {
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  color: var(--white);
+  text-align: center;
+  font-family: "poppins", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  transition-duration: var(--transition);
+}
+
+#linksHeader {
+  /*background-color: #0B090A;*/
+  border-style: var(--border);
+  border-color: white;
+  display: flex;
+  justify-content: right;
+  padding-top: 1vw;
+  padding-bottom: 1vw;
+  font-family: "poppins", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  /*position: fixed;*/
+  width: 90%;
+  top: 0;
+  left: 0;
+  z-index: 1;
 }
 
 a {
   color: var(--white);
-  padding: 0px;
+  padding:0px;
   margin-left: 0vw;
-  margin-top: 0px;
+  margin-top:0px;
   margin-bottom: 0px;
   text-decoration: none;
   transition-duration: 0.1s;
-  opacity: 1 !important;
 }
 
 .ingress {
@@ -86,7 +90,6 @@ a {
   margin-left: 0vw;
   margin-right: 0vw;
   transition-duration: 0.1s;
-  cursor: pointer;
 }
 
 a:hover {
@@ -111,16 +114,6 @@ a:hover {
   transition-duration: var(--transition);
 }
 
-@media screen and (max-width: 1100px) {
-  #logoHeader {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin-top: 3vw;
-    margin-bottom: -10vw;
-  }
-}
-
 #ordbildLang {
   height: 200px;
   margin-bottom: 3vw;
@@ -133,8 +126,6 @@ a:hover {
   transition-duration: 0.3s;
   margin-top: 1.5vw;
   margin-bottom: 0.5vw;
-  border-color: white;
-  border-style: var(--border);
 }
 
 @media screen and (max-width: 1100px) {
@@ -148,61 +139,14 @@ a:hover {
   margin-left: 4vw;
   margin-right: 8vw;
   margin-top: -5vw;
+  
 }
 
-@media screen and (max-width: 1100px) {
-  #star {
-    width: 35vw;
-    height: 35vw;
-    z-index: -2;
-    position: absolute;
-    top: 15vw;
-    left: -13vw;
-    border-style: var(--border);
-    border-color: red;
-    display: inline;
-  }
-}
-
-#starMobile {
-  display: none;
-}
-
-@media screen and (max-width: 1100px) {
-  #starMobile {
-    display: inline;
-    width: 10vw;
-    padding-top: 10vw;
-    display: none;
-  }
-}
-
-/*#sjalvbild {
-  height: 25vw;
-  position: absolute;
-  left: 25vw;
-}
-
-@media screen and (max-width: 1100px) {
-  #sjalvbild {
-    height: 40vw;
-    left: 1vw;
-  }
-}
-*/
 #taglineHolder {
   display: flex;
   align-items: center;
   justify-content: center;
   transition-duration: var(--transition);
-  /*position: relative;*/
-
-}
-
-@media screen and (max-width: 1100px) {
-  #taglineHolder {
-    margin-top: 5vw;
-  }
 }
 
 #tagline {
@@ -210,30 +154,16 @@ a:hover {
   margin-top: 0.8vw;
 }
 
-@media screen and (max-width: 1100px) {
-  #tagline {
-    width: 69vw;
-    margin-left: 17vw;
-  }
-}
-
-.homeGif {
+.vimeo {
   width: 50vw;
   height: 30vw;
   transition-duration: var(--transition);
-  cursor: pointer;
-  border-style: var(--border);
-  border-color: white;
   /*pointer-events:none;*/
 }
 
-.homeGif:hover {
-  cursor: pointer;
-}
-
 @media screen and (max-width: 1100px) {
-  .homeGif {
-    width: 85vw;
+  .vimeo {
+    width:80vw;
     height: 50vw;
   }
 }
@@ -249,8 +179,7 @@ a:hover {
   align-content: center;
   gap: 5vw;
   margin-bottom: 6vw;
-  /*transition-duration: var(--transition);*/
-  cursor: pointer;
+  transition-duration: var(--transition);
 }
 
 .contentContainer:hover {
@@ -261,8 +190,8 @@ a:hover {
   .contentContainer {
     display: flex;
     flex-direction: column;
-    margin-bottom: 15vw;
-    margin-top: 15vw;
+    justify-content: center;
+    align-content: center;
   }
 }
 
@@ -318,7 +247,7 @@ a:hover {
 
 @media screen and (max-width: 1100px) {
   .leftContainer {
-    padding-left: 0px;
+    padding-left:0px;
   }
 }
 
@@ -337,6 +266,10 @@ a:hover {
   .textLeft {
     width: 80vw;
   }
+}
+
+.loopRight {
+  height: 100%;
 }
 
 .homeVideo {
@@ -375,73 +308,38 @@ a:hover {
   }
 }
 
-.loopContainerGone {
-  border-style: var(--border);
-  border-color: white;
+.loopLeft {
+  height: 100%;
 }
 
-.loopContainer {
-  border-style: var(--border);
-  border-color: white;
-}
 
-@media screen and (max-width: 1100px) {
-  .loopContainer {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-  }
-}
 
-@media screen and (max-width: 1100px) {
-  .loopContainerGone {
-    display: none;
-  }
-}
 
-.loopContainerMobile {
-  display: none;
-}
 
-@media screen and (max-width: 1100px) {
-  .loopContainerMobile {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-items: center;
-    margin-bottom: 3vw;
-  }
-}
+
+
+
+
+
+
+
+
+
+
+
 
 /*HERE STARTS SPECIFIC VIDEO SUBPAGE CSS*/
 .videoPage {
   width: 75vw;
-  height: 42.5vw;
+  height: 45vw;
   border-style: var(--border);
-  border-color: white;
-  transition-duration: var(--transition);
-}
-
-@media screen and (max-width: 1100px) {
-  .videoPage {
-    width: 95vw;
-    height: 55vw;
-    transition-duration: var(--transition);
-    border-style: var(--border);
-    border-color: white;
-  }
-}
-
-#hit {
-  height:39vw;
 }
 
 .SubpageContainer {
-  display: flex;
+  display:flex;
   flex-direction: column;
   align-content: center;
   align-items: center;
-  border-color: white;
 }
 
 .ordbildSubpage {
@@ -451,55 +349,16 @@ a:hover {
   padding-bottom: 4vw;
 }
 
-#LatinBakedOrdbild {
-  width: 60vw;
-}
-
-@media screen and (max-width: 1100px) {
-  .ordbildSubpage {
-    width: 80vw;
-  }
-}
-
 .subpageText {
   border-style: var(--border);
-  border-color: blue;
-  width: 80vw;
-}
-
-@media screen and (min-width: 1100px) {
-  .subpageText {
-    width: 48vw;
-    font-family: var(--font);
-  }
-}
-
-.subpageImagesContainer {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  border-color: green;
-  gap: 2vw;
-  border-style: var(--border);
-  align-items: center;
-  justify-content: center;
-  margin-bottom: 6vw;
 }
 
 .subpageImages {
-  width: 35vw;
-  margin-right: 0vw;
+  width: 40vw;
+  margin-right: 6vw;
   border-style: var(--border);
-  margin-bottom: 0vw;
+  margin-bottom: 2vw;
   cursor: pointer;
-}
-
-@media screen and (max-width: 1100px) {
-  .subpageImages {
-    width: 80vw;
-    margin-right: 0vw;
-    margin-bottom: 2vw;
-  }
 }
 
 .processContainer {
@@ -511,15 +370,14 @@ a:hover {
   display: flex;
   justify-content: center;
   align-content: center;
-  gap: 0vw;
-  margin-bottom: 6vw;
+  gap: 5vw;
+  margin-bottom: 8vw;
   transition-duration: var(--transition);
 }
 
-.tillbakaBox {
+.tillbakaBox{
   padding-top: 1vw;
 }
-
 .tillbaka {
   font-family: var(--font);
   border-style: var(--border);
@@ -534,56 +392,18 @@ a:hover {
 
 .modal {
   display: none; /* Hidden by default */
-  flex-direction: column;
   position: fixed;
   z-index: 1000;
   left: 0;
   top: 0;
   width: 100%;
   height: 100%;
-  border-color: red;
-  border-style: var(--border);
-  background-color: rgba(0, 0, 0, 0.8); /* Semi-transparent background */
+  background-color: rgba(0,0,0, 0.5); /* Semi-transparent background */
   justify-content: center;
   align-items: center;
-  margin: auto;
 }
 
 .modal-content {
-  max-width: 85%;
+  max-width: 90%;
   max-height: 90%;
-  margin-top: -2.5%;
-  border-color: white;
-  border-style: var(--border);
 }
-
-#caption {
-  text-align: center;
-  color: var(--white);
-  font-family: var(--font);
-  font-size: 12px;
-  margin-top: 1vh;
-}
-
-.nav {
-  position: absolute;
-  top: 48%;
-  transform: translateY(-50%);
-  font-size: 12pt;
-  color: var(--white);
-  cursor: pointer;
-  user-select: none;
-  z-index: 1001;
-  opacity: 1;
-}
-
-.nav.left {
-  left: 5%;
-}
-
-.nav.right {
-  right: 5%;
-}
-
-
-/* this is only for the hover function in index */

@@ -7,23 +7,15 @@
       rel="icon"
       href="https://cdn.glitch.global/3938cb0d-8b66-43e6-93d0-95eed83eb0d2/ikon_gul.svg?v=1725367073805"
     />
-    <title>Fool's Gold – Mika Hyvönen</title>
+    <title>Mika Hyvönen</title>
     <link rel="stylesheet" href="/style.css" />
     <link rel="stylesheet" href="https://use.typekit.net/loh6dvv.css" />
-    <link rel="stylesheet" href="/style.css" />
-    <link rel="stylesheet" href="https://use.typekit.net/loh6dvv.css" />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap"
-      rel="stylesheet"
-    />
     <script src="/script.js" defer></script>
   </head>
 
   <body>
     <div class="tillbakaBox">
-      <a href="/index.html" class="tillbaka">Tillbaka</a>
+      <a href="/index2.html" class="tillbaka">Tillbaka</a>
     </div>
 
     <div class="SubpageContainer">
@@ -35,7 +27,7 @@
 
       <svg
             id="FoolsGoldOrdbild"
-            class="ordbildSubpage"
+            class="ordbild"
             xmlns="http://www.w3.org/2000/svg"
             version="1.1"
             viewbox="0 0 750.7 250"
@@ -174,83 +166,44 @@
 
       <!-- Process -->
       <div class="processContainer">
-        <div class="leftContainerSubpage">
-          <div class="textLeftSubpage">
+        <div class="leftContainer">
+          <div class="textLeft">
             <p class="subpageText">
-              ”Fool's Gold” är ett arbete utfört för det amerikanska bandet <a href="https://www.airtrafficcontrollermusic.com/bio" class="ingress">Air Traffic Controller</a>. 
+              "Fool's Gold" är ett betalt arbete utfört för det amerikanska bandet Air Traffic Controller. 
               <br /><br />
               Jag hade tidigare gjort ett fan-projekt för en av deras andra låtar, och bandet hörde av sig till mig på twitter för att fråga om jag kunde göra en hellång animerad musikvideo åt en nysläppt låt.
-              <br/><br/>
-              Mer om låten <a href="https://capecreativecollective.co.za/music/indie-pop/air-traffic-controller-fools-gold/" class="ingress">här.</a>
+              <br /><br />
+              <!--Jag, som många andra, väljer att inte interagera med såna artiklar
+            för mitt eget välmående. Trots det dök debatten upp i mitt flöde.
+            Debatter i facebookgrupper som inte handlar om politiska frågor
+            blommade plötsligt med skräckscenarion om barn som ska opereras mot
+            föräldrarnas vilja, och män som ska få fritt tillträde till -->
+              Mitt mål med arbetet var att, med hjälp av färger och scener
+              visualisera den kontrast jag känner mellan min vardag och
+              artiklarna. Arbetet är utfört i ToonBoom Harmony samt After
+              Effects.
             </p>
           </div>
         </div>
-      </div>
-
-      <div class="subpageImagesContainer" id="subpageImgMobile">
-        <img
-          src="https://cdn.glitch.global/3938cb0d-8b66-43e6-93d0-95eed83eb0d2/IMG_4467.PNG?v=1736842418077"
-          class="subpageImages"
-          id="subpageImage1"
-          alt="Tidig skiss."
-        />
-        <img
-          src="https://cdn.glitch.global/3938cb0d-8b66-43e6-93d0-95eed83eb0d2/IMG_4544.PNG?v=1736842438837"
-          class="subpageImages"
-          id="subpageImage2"
-          alt="Tidig skiss."
-        />
-
-        <img
-          src="https://cdn.glitch.global/3938cb0d-8b66-43e6-93d0-95eed83eb0d2/protagonist_body.PNG?v=1736843170102"
-          class="subpageImages"
-          id="subpageImage3"
-          alt="Karaktärsdesign."
-        />
-        <img
-          src="https://cdn.glitch.global/3938cb0d-8b66-43e6-93d0-95eed83eb0d2/traveller1_bust.PNG?v=1736842469966"
-          class="subpageImages"
-          id="subpageImage4"
-          alt="Karaktärsdesign."
-        />
-        
-        <img
-          src="https://cdn.glitch.global/3938cb0d-8b66-43e6-93d0-95eed83eb0d2/traveller2_body.PNG?v=1736842483962"
-          class="subpageImages"
-          id="subpageImage5"
-          alt="Karaktärsdesign"
-        />
-        <img
-          src="https://cdn.glitch.global/3938cb0d-8b66-43e6-93d0-95eed83eb0d2/tree1.png?v=1736842638993"
-          class="subpageImages"
-          id="subpageImage6"
-          alt="Ett av många träd jag illustrerade för denna video."
-        />
-        <img
-          src="https://cdn.glitch.global/3938cb0d-8b66-43e6-93d0-95eed83eb0d2/Cave_larger.png?v=1736842972397"
-          class="subpageImages"
-          id="subpageImage7"
-          alt="Bakgrund, grotta."
-        />
-        <img
-          src="https://cdn.glitch.global/3938cb0d-8b66-43e6-93d0-95eed83eb0d2/home-.gif?v=1736842974687"
-          class="subpageImages"
-          id="subpageImage8"
-          alt="Bakgrund, hem."
-        />
+        <div class="subpageImagesContainer">
+          <img
+            src="https://cdn.glitch.global/3938cb0d-8b66-43e6-93d0-95eed83eb0d2/enkvallmellanraderna_1.png?v=1733424960197"
+            class="subpageImages"
+          />
+          <img
+            src="https://cdn.glitch.global/3938cb0d-8b66-43e6-93d0-95eed83eb0d2/enkvallmellanraderna2.png?v=1733427866353"
+            class="subpageImages"
+          />
+        </div>
       </div>
     </div>
-
-    <div id="imageModal" class="modal">
-      <!--<span class="close">&times;</span>-->
+    
+        <div id="imageModal" class="modal">
+      <span class="close">&times;</span>
       <img class="modal-content" id="modalImage" />
-      <!-- Modal Caption (Image Text) -->
-      <div id="caption"></div>
-      <span class="nav left">&lt;</span>
-      <span class="nav right">&gt;</span>
     </div>
 
-    <link rel="stylesheet" type="text/css" href="/style.css" />
+    <link rel="stylesheet" href="/style.css" />
     <script src="/script.js" defer></script>
   </body>
 </html>

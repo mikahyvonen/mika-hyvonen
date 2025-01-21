@@ -7,39 +7,22 @@
       rel="icon"
       href="https://cdn.glitch.global/3938cb0d-8b66-43e6-93d0-95eed83eb0d2/ikon_gul.svg?v=1725367073805"
     />
-    <title>En Kväll Mellan Raderna – Mika Hyvönen</title>
+    <title>Mika Hyvönen</title>
     <link rel="stylesheet" href="/style.css" />
     <link rel="stylesheet" href="https://use.typekit.net/loh6dvv.css" />
-    <link rel="stylesheet" href="/style.css" />
-    <link rel="stylesheet" href="https://use.typekit.net/loh6dvv.css" />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap"
-      rel="stylesheet"
-    />
     <script src="/script.js" defer></script>
   </head>
 
   <body>
     <div class="tillbakaBox">
-      <a href="/index.html" class="tillbaka">Tillbaka</a>
+      <a href="/index2.html" class="tillbaka">Tillbaka</a>
     </div>
 
     <div class="SubpageContainer">
       <div class="SubpageVideoContainer">
-        <video
-          class="videoPage"
-          controls
-          loop
-          controlslist="nodownload"
-          oncontextmenu="return false;"
-        >
-          <source
-            src="https://cdn.glitch.me/3938cb0d-8b66-43e6-93d0-95eed83eb0d2/En-kvall-mellan-raderna_subs_1.mp4?v=1733860299353"
-            type="video/mp4"
-          />
-        </video>
+      <video class="videoPage" controls loop controlslist="nodownload" oncontextmenu="return false;">
+  <source src="https://cdn.glitch.me/3938cb0d-8b66-43e6-93d0-95eed83eb0d2/En-kvall-mellan-raderna_subs_1.mp4?v=1733860299353" type="video/mp4">
+</video>
       </div>
 
       <svg
@@ -142,8 +125,8 @@
       <div class="processContainer">
         <div class="leftContainerSubpage">
           <div class="textLeftSubpage">
-            <p class="subpageText">
-              ”En kväll mellan raderna” är ett arbete utfört inom ramen av en
+           <p class="subpageText">
+              <!--"En kväll mellan raderna" är ett arbete utfört inom ramen av en
               kurs på Beckmans Designhögskola. Briefen var att under tre veckors
               tid utforska visuell kommunikation som medel för åsiktspåverkan.
               <br /><br />
@@ -158,78 +141,36 @@
             Debatter i facebookgrupper som inte handlar om politiska frågor
             blommade plötsligt med skräckscenarion om barn som ska opereras mot
             föräldrarnas vilja, och män som ska få fritt tillträde till -->
-              Mitt mål med arbetet var att, med hjälp av färger och vardagliga
-              scener visualisera den kontrast jag känner mellan min vardag och
+             <!-- Mitt mål med arbetet var att, med hjälp av färger och scener
+              visualisera den kontrast jag känner mellan min vardag och
               artiklarna. Arbetet är utfört i ToonBoom Harmony samt After
               Effects.
-              <br /><br />
-              Jag funderar ibland på om min video blev ett för passivt sätt att
-              ta sig an frågan. Om jag istället borde animerat någon som mer
-              högljutt står upp för sig själv. ”Hur förstår man att
-              huvudkaraktären inte håller med rubrikerna?” fick jag som feedback
-              vid ett tillfälle. För mig känns det viktigt att det finns
-              personer som högljutt står upp för sig själva. Jag försöker bli
-              bättre på att göra det, också. Men jag tror att hur mycket man
-              än står upp för sig själv, så finns det också dagar då man behöver
-              skapa en trygg plats för sig själv att andas en stund. Då gäller
-              det att skapa sig en egen kväll, mellan raderna.
-            </p>
+            --></p> 
           </div>
         </div>
-      </div>
-
-      <div class="subpageImagesContainer" id="subpageImgMobile">
-        <img
-          src="https://cdn.glitch.global/3938cb0d-8b66-43e6-93d0-95eed83eb0d2/enkvallmellanraderna_1.png?v=1733424960197"
-          class="subpageImages"
-          id="subpageImage1"
-          alt="Processbild från ToonBoom."
-        />
-        <img
-          src="https://cdn.glitch.global/3938cb0d-8b66-43e6-93d0-95eed83eb0d2/enkvallmellanraderna2.png?v=1733427866353"
-          class="subpageImages"
-          id="subpageImage2"
-          alt="Processbild från AfterEffects."
-        />
-
-        <img
-          src="https://cdn.glitch.global/3938cb0d-8b66-43e6-93d0-95eed83eb0d2/Untitled.013.jpeg?v=1736805175331"
-          class="subpageImages"
-          id="subpageImage3"
-          alt="Tidig skiss."
-        />
-        <img
-          src="https://cdn.glitch.global/3938cb0d-8b66-43e6-93d0-95eed83eb0d2/Untitled.012.jpeg?v=1736805171945"
-          class="subpageImages"
-          id="subpageImage4"
-          alt="Tidig skiss."
-        />
-        
-        <img
-          src="https://cdn.glitch.global/3938cb0d-8b66-43e6-93d0-95eed83eb0d2/bgr_hallway.png?v=1736807421503"
-          class="subpageImages"
-          id="subpageImage5"
-          alt="Bakgrund, hall."
-        />
-        <img
-          src="https://cdn.glitch.me/3938cb0d-8b66-43e6-93d0-95eed83eb0d2/bgr_couch_clean.png?v=1736807410496"
-          class="subpageImages"
-          id="subpageImage6"
-          alt="Bakgrund, soffa."
-        />
+        <div class="subpageImagesContainer">
+          <img
+            src="https://cdn.glitch.global/3938cb0d-8b66-43e6-93d0-95eed83eb0d2/enkvallmellanraderna_1.png?v=1733424960197"
+            class="subpageImages" alt="Expanded view"
+          />
+          <img
+            src="https://cdn.glitch.global/3938cb0d-8b66-43e6-93d0-95eed83eb0d2/enkvallmellanraderna2.png?v=1733427866353"
+            class="subpageImages" alt="Expanded view"
+          />
+        </div>
       </div>
     </div>
-
-    <div id="imageModal" class="modal">
-      <!--<span class="close">&times;</span>-->
-      <img class="modal-content" id="modalImage" />
-      <!-- Modal Caption (Image Text) -->
+    
+        <div id="imageModal" class="modal">
+      <span class="close">&times;</span>
+          
+      <img class="modal-content" id="modalImage"/> 
+          
       <div id="caption"></div>
-      <span class="nav left">&lt;</span>
-      <span class="nav right">&gt;</span>
+          
     </div>
 
-    <link rel="stylesheet" type="text/css" href="/style.css" />
+    <link rel="stylesheet" href="/style.css" />
     <script src="/script.js" defer></script>
   </body>
 </html>
