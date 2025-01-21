@@ -7,23 +7,15 @@
       rel="icon"
       href="https://cdn.glitch.global/3938cb0d-8b66-43e6-93d0-95eed83eb0d2/ikon_gul.svg?v=1725367073805"
     />
-    <title>Fem Konversationer Jag Aldrig Glömmer – Mika Hyvönen</title>
+    <title>Mika Hyvönen</title>
     <link rel="stylesheet" href="/style.css" />
     <link rel="stylesheet" href="https://use.typekit.net/loh6dvv.css" />
-    <link rel="stylesheet" href="/style.css" />
-    <link rel="stylesheet" href="https://use.typekit.net/loh6dvv.css" />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap"
-      rel="stylesheet"
-    />
     <script src="/script.js" defer></script>
   </head>
 
   <body>
     <div class="tillbakaBox">
-      <a href="/index.html" class="tillbaka">Tillbaka</a>
+      <a href="/index2.html" class="tillbaka">Tillbaka</a>
     </div>
 
     <div class="SubpageContainer">
@@ -32,8 +24,7 @@
   <source src="https://cdn.glitch.me/3938cb0d-8b66-43e6-93d0-95eed83eb0d2/FemKonversationer?v=1733860308400" type="video/mp4">
 </video>
       </div>
-
-      <svg
+<svg
           id="FemKonversationerOrdbildSubpage"
           class="ordbildSubpage"
           xmlns="http://www.w3.org/2000/svg"
@@ -182,181 +173,36 @@
 
       <!-- Process -->
       <div class="processContainer">
-        <div class="leftContainerSubpage">
-          <div class="textLeftSubpage">
+        <div class="leftContainer">
+          <div class="textLeft">
             <p class="subpageText">
-              ”5 konversationer jag aldrig glömmer” var ett arbetsprov till programmet visuell kommunikation på Beckmans Designhögskola. Briefen var att gestalta siffran fem i valfritt medium.
+              "5 konversationer jag aldrig glömmer" var ett arbetsprov till programmet visuell kommunikation på Beckmans Designhögskola. Briefen var att gestalta siffran fem i valfritt medium.
               <br /><br />
               Idén hade jag egentligen haft sedan länge; ett kärleksbrev till konversationer jag minns.
               <br><br>
-              Bland hundratals konversationer som spökar i mitt huvud valde jag till slut ett samtal om framtidsdrömmar med en kollega på mitt första jobb, en kärleksförklaring i duschen, en reflektion över en vänskap som tagit slut, ett samtal med en vän om döden samt förändring, och en kollega som önskar mig lycka till i framtiden. 
-              <br><br>
-              Jag hade till en början tänkt mig att scenerna skulle vara längre, men fick anpassa de till längden video specifierat för arbetsprovet. Man kan se i mina tidiga skisser nedan hur vissa av scenerna var tänkta från början. 
+              Bland hundratals konversationer som spökar i mitt huvud valde jag till slut ett samtal om framtidsdrömmar med en kollega på mitt första jobb, en kärleksförklaring i duschen, en reflektion över en vänskap som tagit slut, ett samtal med en vän om döden och att förändras, och en kollega som önskar mig lycka till i framtiden. 
             </p>
           </div>
         </div>
-      </div>
-
-      <div class="subpageImagesContainer" id="subpageImgMobile">
-        <img
-          src="https://cdn.glitch.global/3938cb0d-8b66-43e6-93d0-95eed83eb0d2/Untitled_Artwork%209.png?v=1737239120935"
-          class="subpageImages"
-          id="subpageImage1"
-          alt="Bakgrund."
-        />
-        <img
-          src="https://cdn.glitch.global/3938cb0d-8b66-43e6-93d0-95eed83eb0d2/Untitled_Artwork%2012.png?v=1737239130553"
-          class="subpageImages"
-          id="subpageImage2"
-          alt="Bakgrund."
-        />
-
-        <img
-          src="https://cdn.glitch.global/3938cb0d-8b66-43e6-93d0-95eed83eb0d2/Untitled_Artwork%2011.png?v=1737239126904"
-          class="subpageImages"
-          id="subpageImage3"
-          alt="Bakgrund."
-        />
-        <img
-          src="https://cdn.glitch.global/3938cb0d-8b66-43e6-93d0-95eed83eb0d2/Untitled_Artwork%2010.png?v=1737239123872"
-          class="subpageImages"
-          id="subpageImage4"
-          alt="Bakgrund."
-        />
-        
-        <img
-          src="https://cdn.glitch.global/3938cb0d-8b66-43e6-93d0-95eed83eb0d2/Untitled_Artwork%203.gif?v=1737239105999"
-          class="subpageImages"
-          id="subpageImage5"
-          alt="Animerad karaktär."
-        />
-        <img
-          src="https://cdn.glitch.global/3938cb0d-8b66-43e6-93d0-95eed83eb0d2/Untitled_Artwork%205.gif?v=1737239114185"
-          class="subpageImages"
-          id="subpageImage6"
-          alt="Animerad karaktär."
-        />
-        <img
-          src="https://cdn.glitch.global/3938cb0d-8b66-43e6-93d0-95eed83eb0d2/planB1.jpg?v=1737240085064"
-          class="subpageImages"
-          id="subpageImage7"
-          alt="Tidig skiss."
-        />
-        <img
-          src="https://cdn.glitch.global/3938cb0d-8b66-43e6-93d0-95eed83eb0d2/planB2.jpg?v=1737240088515"
-          class="subpageImages"
-          id="subpageImage8"
-          alt="Tidig skiss."
-        />
-        <img
-          src="https://cdn.glitch.global/3938cb0d-8b66-43e6-93d0-95eed83eb0d2/planB3.jpg?v=1737240092132"
-          class="subpageImages"
-          id="subpageImage9"
-          alt="Tidig skiss."
-        />
-        <img
-          src="https://cdn.glitch.global/3938cb0d-8b66-43e6-93d0-95eed83eb0d2/planB4.jpg?v=1737240093606"
-          class="subpageImages"
-          id="subpageImage10"
-          alt="Tidig skiss."
-        />
-        <img
-          src="https://cdn.glitch.global/3938cb0d-8b66-43e6-93d0-95eed83eb0d2/planB5.jpg?v=1737240097204"
-          class="subpageImages"
-          id="subpageImage11"
-          alt="Tidig skiss."
-        />
-        <img
-          src="https://cdn.glitch.global/3938cb0d-8b66-43e6-93d0-95eed83eb0d2/planB6.jpg?v=1737240099497"
-          class="subpageImages"
-          id="subpageImage12"
-          alt="Tidig skiss."
-        />
-        <img
-          src="https://cdn.glitch.global/3938cb0d-8b66-43e6-93d0-95eed83eb0d2/planB7.jpg?v=1737240101837"
-          class="subpageImages"
-          id="subpageImage13"
-          alt="Tidig skiss."
-        />
-        <img
-          src="https://cdn.glitch.global/3938cb0d-8b66-43e6-93d0-95eed83eb0d2/planB8.jpg?v=1737240105563"
-          class="subpageImages"
-          id="subpageImage14"
-          alt="Tidig skiss."
-        />
-        <img
-          src="https://cdn.glitch.global/3938cb0d-8b66-43e6-93d0-95eed83eb0d2/planB9.jpg?v=1737240108579"
-          class="subpageImages"
-          id="subpageImage15"
-          alt="Tidig skiss."
-        />
-        <img
-          src="https://cdn.glitch.global/3938cb0d-8b66-43e6-93d0-95eed83eb0d2/planB10.jpg?v=1737240110305"
-          class="subpageImages"
-          id="subpageImage16"
-          alt="Tidig skiss."
-        />
-        <img
-          src="https://cdn.glitch.global/3938cb0d-8b66-43e6-93d0-95eed83eb0d2/planB11.jpg?v=1737240113963"
-          class="subpageImages"
-          id="subpageImage17"
-          alt="Tidig skiss."
-        />
-        <img
-          src="https://cdn.glitch.global/3938cb0d-8b66-43e6-93d0-95eed83eb0d2/femkonversationer_skiss_1.jpg?v=1737239017262"
-          class="subpageImages"
-          id="subpageImage18"
-          alt="Tidig skiss."
-        />
-        <img
-          src="https://cdn.glitch.global/3938cb0d-8b66-43e6-93d0-95eed83eb0d2/femkonversationer_skiss_8.jpg?v=1737239075593"
-          class="subpageImages"
-          id="subpageImage19"
-          alt="Tidig skiss."
-        />
-        <img
-          src="https://cdn.glitch.global/3938cb0d-8b66-43e6-93d0-95eed83eb0d2/femkonversationer_skiss_9.jpg?v=1737239079048"
-          class="subpageImages"
-          id="subpageImage20"
-          alt="Tidig skiss."
-        />
-        <img
-          src="https://cdn.glitch.global/3938cb0d-8b66-43e6-93d0-95eed83eb0d2/femkonversationer_skiss_4.jpg?v=1737239062210"
-          class="subpageImages"
-          id="subpageImage21"
-          alt="Tidig skiss."
-        />
-        <img
-          src="https://cdn.glitch.global/3938cb0d-8b66-43e6-93d0-95eed83eb0d2/femkonversationer_skiss_5.jpg?v=1737239065738"
-          class="subpageImages"
-          id="subpageImage22"
-          alt="Tidig skiss."
-        />
-        <img
-          src="https://cdn.glitch.global/3938cb0d-8b66-43e6-93d0-95eed83eb0d2/femkonversationer_skiss_6.jpg?v=1737239068851"
-          class="subpageImages"
-          id="subpageImage23"
-          alt="Tidig skiss."
-        />
-        <img
-          src="https://cdn.glitch.global/3938cb0d-8b66-43e6-93d0-95eed83eb0d2/femkonversationer_skiss_12.jpg?v=1737239088186"
-          class="subpageImages"
-          id="subpageImage24"
-          alt="Tidig skiss."
-        />
+        <div class="subpageImagesContainer">
+          <img
+            src="https://cdn.glitch.global/3938cb0d-8b66-43e6-93d0-95eed83eb0d2/enkvallmellanraderna_1.png?v=1733424960197"
+            class="subpageImages"
+          />
+          <img
+            src="https://cdn.glitch.global/3938cb0d-8b66-43e6-93d0-95eed83eb0d2/enkvallmellanraderna2.png?v=1733427866353"
+            class="subpageImages"
+          />
+        </div>
       </div>
     </div>
-
-    <div id="imageModal" class="modal">
-      <!--<span class="close">&times;</span>-->
+    
+        <div id="imageModal" class="modal">
+      <span class="close">&times;</span>
       <img class="modal-content" id="modalImage" />
-      <!-- Modal Caption (Image Text) -->
-      <div id="caption"></div>
-      <span class="nav left">&lt;</span>
-      <span class="nav right">&gt;</span>
     </div>
 
-    <link rel="stylesheet" type="text/css" href="/style.css" />
+    <link rel="stylesheet" href="/style.css" />
     <script src="/script.js" defer></script>
   </body>
 </html>

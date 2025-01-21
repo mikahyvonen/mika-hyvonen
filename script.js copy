@@ -91,7 +91,7 @@ const hoverContainers = document.querySelectorAll('.hover-container');
             container.addEventListener('mousemove', event => {
                 // Update image position to follow the cursor
                 const containerRect = container.getBoundingClientRect();
-                image.style.left = (event.clientX - containerRect.left - 100) + 'px'; // Offset for better visibility
-                image.style.top = (event.clientY - containerRect.top + 200) + 'px';
+                image.style.left = (event.clientX - containerRect.left + 10) + 'px'; // Offset for better visibility
+                image.style.top = (event.clientY - containerRect.top + 10) + 'px';
             });
         });

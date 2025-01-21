@@ -7,23 +7,21 @@
       rel="icon"
       href="https://cdn.glitch.global/3938cb0d-8b66-43e6-93d0-95eed83eb0d2/ikon_gul.svg?v=1725367073805"
     />
-    <title>Skogen – Mika Hyvönen</title>
-    <link rel="stylesheet" href="/style.css" />
-    <link rel="stylesheet" href="https://use.typekit.net/loh6dvv.css" />
-    <link rel="stylesheet" href="/style.css" />
-    <link rel="stylesheet" href="https://use.typekit.net/loh6dvv.css" />
+    <title>Mika Hyvönen</title>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
       href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap"
       rel="stylesheet"
     />
+    <link rel="stylesheet" href="/style.css" />
+    <link rel="stylesheet" href="https://use.typekit.net/loh6dvv.css" />
     <script src="/script.js" defer></script>
   </head>
 
   <body>
     <div class="tillbakaBox">
-      <a href="/index.html" class="tillbaka">Tillbaka</a>
+      <a href="/index2.html" class="tillbaka">Tillbaka</a>
     </div>
 
     <div class="SubpageContainer">
@@ -36,7 +34,7 @@
           oncontextmenu="return false;"
         >
           <source
-            src="https://cdn.glitch.me/3938cb0d-8b66-43e6-93d0-95eed83eb0d2/skogen_1920x1080_mindre.mp4?v=1737398455438"
+            src="https://cdn.glitch.me/3938cb0d-8b66-43e6-93d0-95eed83eb0d2/skogen.mp4?v=1733860314848"
             type="video/mp4"
           />
         </video>
@@ -83,74 +81,41 @@
 
       <!-- Process -->
       <div class="processContainer">
-        <div class="leftContainerSubpage">
-          <div class="textLeftSubpage">
+        <div class="leftContainer">
+          <div class="textLeft">
             <p class="subpageText">
-              ”Skogen” animerades som del av kursarbete på Beckmans Designhögskola. Briefen
-              var att, under loppet av två veckor, göra 60 sekunder musikvideo till musik av studenter på
-              Kungliga Musikhögskolan. Stycket heter Skogen, och är skapat av
+              "Skogen" gjordes inom en kurs på Beckmans Designhögskola. Briefen
+              var att göra 60 sekunder musikvideo till musik av studenter på
+              Kungliga Musikhögskolan. Stycket heter Skogen, och är gjort av
               <a
                 href="https://www.instagram.com/tildeedlund"
                 target="_blank"
                 rel="noopener noreferrer"
-                class="ingress"
                 >Tilde Edlund.</a
               >
-              <br/><br/>
-              Jag själv uppfattade stycket tydligt som en skogsbrand. När jag sedan träffade Tilde och fick presentera mina skisser, beskrev hon det istället som rädslan hon upplevt när hon sprungit i skogen ensam.
-              <br><br>
-              ”Skogen” har visats på Sörmlands Kortfilmfestival FRAME år 2024, Eskilstuna Kulturnatt 2024, och kommer visas på Folk och Kultur den 5-7 februari 2025.
+              <br /><br />
             </p>
           </div>
         </div>
-      </div>
-
-      <div class="subpageImagesContainer" id="subpageImgMobile">
-        <img
-          src="https://cdn.glitch.global/3938cb0d-8b66-43e6-93d0-95eed83eb0d2/4_titel.png?v=1736808862266"
-          class="subpageImages"
-          id="subpageImage1"
-          alt="Tidig skiss på titelsekvensen."
-        />
-        <img
-          src="https://cdn.glitch.global/3938cb0d-8b66-43e6-93d0-95eed83eb0d2/6_fireman_closeup_edt.png?v=1736809002751"
-          class="subpageImages"
-          id="subpageImage2"
-          alt="Tidig skiss på eldkaraktären."
-        />
-
-        <img
-          src="https://cdn.glitch.global/3938cb0d-8b66-43e6-93d0-95eed83eb0d2/2_face.png?v=1736809984622"
-          class="subpageImages"
-          id="subpageImage3"
-          alt="Tidig skiss på huvudkaraktären."
-        />
-        <img
-          src="https://cdn.glitch.global/3938cb0d-8b66-43e6-93d0-95eed83eb0d2/tree-ref_0004.gif?v=1736811030687"
-          class="subpageImages"
-          id="subpageImage4"
-          alt="Jag skapade en 3D-modellerad variant av huvudkaraktären för att kunna hitta lösningar på svåra vinklar."
-        />
-        
-        <img
-          src="https://cdn.glitch.me/3938cb0d-8b66-43e6-93d0-95eed83eb0d2/20240228_174318.gif?v=1736810237405"
-          class="subpageImages"
-          id="subpageImage5"
-          alt="Också kul att leka med mixamo.com!"
-        />
+        <div class="subpageImagesContainer">
+          <img
+            src="https://cdn.glitch.global/3938cb0d-8b66-43e6-93d0-95eed83eb0d2/enkvallmellanraderna_1.png?v=1733424960197"
+            class="subpageImages"
+          />
+          <img
+            src="https://cdn.glitch.global/3938cb0d-8b66-43e6-93d0-95eed83eb0d2/enkvallmellanraderna2.png?v=1733427866353"
+            class="subpageImages"
+          />
+        </div>
       </div>
     </div>
 
     <div id="imageModal" class="modal">
-      <!--<span class="close">&times;</span>-->
+      <span class="close">&times;</span>
       <img class="modal-content" id="modalImage" />
-      <!-- Modal Caption (Image Text) -->
-      <div id="caption"></div>
-      <span class="nav left">&lt;</span>
-      <span class="nav right">&gt;</span>
     </div>
 
-    <link rel="stylesheet" type="text/css" href="/style.css" />
+    <link rel="stylesheet" href="/style.css" />
     <script src="/script.js" defer></script>
   </body>
 </html>

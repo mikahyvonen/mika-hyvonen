@@ -2,7 +2,6 @@
 <html lang="en">
   <head>
     <meta charset="utf-8" />
-    <meta name="color-scheme" content="light dark" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <link
       rel="icon"
@@ -43,21 +42,19 @@
             d="M48.51,63.96c-1.12.98-.79,2.33-.87,3.56-.37,5.44-1.05,10.83-2.38,16.14-.77,3.1-2.29,5.72-4.6,7.87-2.95,2.74-6.83,2.78-9.82.09-2.07-1.85-3.44-4.2-4.33-6.83-.69-2.04-1.38-4.08-2.2-6.53-2.16,1.54-3.99,2.92-5.89,4.18-4.64,3.07-8.56,2.25-11.55-2.41-2.75-4.29-3.05-8.83-1.31-13.56,1.2-3.26,2.99-6.21,4.81-9.14,1.63-2.62,3.29-5.21,5.11-8.09-2.83-4.2-5.6-8.44-8.51-12.58-2.41-3.43-4.56-7.01-6.28-10.82-1.7-3.75-.13-8.34,3.35-10.4,1.16-.69,2.45-.63,3.71-.51,2.95.27,5.6,1.47,8.22,2.74,2.07,1,4.02,2.36,6.7,2.82.59-3.06,1.04-5.88,1.69-8.65.58-2.47,1.18-4.96,2.11-7.3C27.81,1.14,31.31-.46,35.47.11c3.82.52,5.78,2.41,6.24,6.39.31,2.67.3,5.37.43,7.95,1.71.92,2.61-.32,3.58-.96,2.28-1.49,4.54-2.93,7.04-4.09,5.61-2.62,12.37,3.43,10.76,9.28-.87,3.16-2.05,6.19-3.42,9.17-2.05,4.46-4.82,8.49-7.36,12.6,1.26,1.67,3.09,2.18,4.58,3.18,2.25,1.52,4.67,2.88,6.69,4.67,5.33,4.74,4.86,13.84-.79,18.18-1.7,1.31-3.64,1.66-5.66.96-1.71-.59-3.34-1.4-5.03-2.05-1.33-.5-2.4-1.74-4.01-1.44Z"
           />
         </svg>
-        <!--<img src="https://cdn.glitch.global/3938cb0d-8b66-43e6-93d0-95eed83eb0d2/sjalvbild.png?v=1737376230567" id="sjalvbild">-->
         <h2 id="tagline">
-          Hej! Jag heter <span class="ingress">Mika Hyvönen</span>, och i mina
-          animationer utforskar och bearbetar jag tankar, minnen och allt vad
-          det innebär att vara människa. Transfrågor är hjärtefrågor, och jag
-          räds inte känslor.<br />
+          Hej! Jag heter Mika Hyvönen. Jag studerar visuell kommunikation på
+          Beckmans Designhögskola.<br />
           <hr />
-          Förutom att animera jobbar jag också gärna på andra projekt, så som
-          <a class="ingress" href="/LatinBaked.html">typsnitt</a>,
-          <a class="ingress" href="/CaseOfTheMissingHit.html">hemsidor</a> och
-          <a class="ingress" href="/BarnsligaRattigheter.html">bokillustration</a>.
-          Man når mig lättast genom att skicka mejl till
-          <a class="ingress" href="mailto:mikahyvonen99@gmail.com"
-            >mikahyvonen99@gmail.com</a
-          >. Jag uppdaterar ibland min
+          I mina animationer utforskar och bearbetar jag tankar, minnen och allt
+          vad det innebär att vara människa. Transfrågor är hjärtefrågor, och
+          jag räds inte känslor.<br />
+          <hr />
+          Förutom att animera, jobbar jag också gärna på
+          <a class="ingress" href="/AndraProjekt.html">andra projekt</a>. Man når mig lättast
+          genom att skicka mejl till
+          <a class="ingress" href="mailto:mikahyvonen99@gmail.com">mikahyvonen99@gmail.com</a>. Jag uppdaterar
+          ibland min
           <a
             class="ingress"
             href="https://instagram.com/timetomike"
@@ -66,39 +63,13 @@
             >Instagram</a
           >.
         </h2>
-        
       </div>
-      <svg
-        id="starMobile"
-        data-name="Lager 1"
-        xmlns="http://www.w3.org/2000/svg"
-        viewbox="0 0 67.73 93.62"
-      >
-        <defs>
-          <style>
-            .cls-1 {
-              fill: var(--yellow);
-              stroke-width: 0px;
-            }
-          </style>
-        </defs>
-        <path
-          class="cls-1"
-          d="M48.51,63.96c-1.12.98-.79,2.33-.87,3.56-.37,5.44-1.05,10.83-2.38,16.14-.77,3.1-2.29,5.72-4.6,7.87-2.95,2.74-6.83,2.78-9.82.09-2.07-1.85-3.44-4.2-4.33-6.83-.69-2.04-1.38-4.08-2.2-6.53-2.16,1.54-3.99,2.92-5.89,4.18-4.64,3.07-8.56,2.25-11.55-2.41-2.75-4.29-3.05-8.83-1.31-13.56,1.2-3.26,2.99-6.21,4.81-9.14,1.63-2.62,3.29-5.21,5.11-8.09-2.83-4.2-5.6-8.44-8.51-12.58-2.41-3.43-4.56-7.01-6.28-10.82-1.7-3.75-.13-8.34,3.35-10.4,1.16-.69,2.45-.63,3.71-.51,2.95.27,5.6,1.47,8.22,2.74,2.07,1,4.02,2.36,6.7,2.82.59-3.06,1.04-5.88,1.69-8.65.58-2.47,1.18-4.96,2.11-7.3C27.81,1.14,31.31-.46,35.47.11c3.82.52,5.78,2.41,6.24,6.39.31,2.67.3,5.37.43,7.95,1.71.92,2.61-.32,3.58-.96,2.28-1.49,4.54-2.93,7.04-4.09,5.61-2.62,12.37,3.43,10.76,9.28-.87,3.16-2.05,6.19-3.42,9.17-2.05,4.46-4.82,8.49-7.36,12.6,1.26,1.67,3.09,2.18,4.58,3.18,2.25,1.52,4.67,2.88,6.69,4.67,5.33,4.74,4.86,13.84-.79,18.18-1.7,1.31-3.64,1.66-5.66.96-1.71-.59-3.34-1.4-5.03-2.05-1.33-.5-2.4-1.74-4.01-1.44Z"
-        />
-      </svg>
     </div>
 
     <!--block med video på höger sida, en kväll mellan raderna-->
     <a href="/EnKvallMellanRaderna.html">
       <div class="contentContainer" id="EnKvallContainer">
         <div class="leftContainer">
-          <div class="loopContainerMobile">
-            <img
-              src="https://cdn.glitch.me/3938cb0d-8b66-43e6-93d0-95eed83eb0d2/ENKVALLMELLANRADERNA_1.gif?v=1736695263595"
-              class="homeGif"
-            />
-          </div>
           <svg
             id="EnKvallOrdbild"
             class="ordbild"
@@ -197,7 +168,7 @@
 
           <div class="textLeft">
             <p id="EnKvallText">
-              ”En kväll mellan raderna” sätter alarmistiska artiklar om
+              "En kväll mellan raderna" sätter alarmistiska artiklar om
               transpersoner i kontrast mot en varm sommarkväll hos en person som
               precis flyttat till en ny studentlägenhet, saknar sin hemstad och
               ringer sin mamma.
@@ -205,11 +176,14 @@
           </div>
         </div>
 
-        <div class="loopContainerGone">
-          <img
-            src="https://cdn.glitch.me/3938cb0d-8b66-43e6-93d0-95eed83eb0d2/ENKVALLMELLANRADERNA_1.gif?v=1736695263595"
-            class="homeGif"
-          />
+        <div class="loopRight">
+          <iframe
+            src="https://player.vimeo.com/video/1035588054?autoplay=1&background=1&muted=1&loop=1&h=2dc7c16cfc&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479"
+            frameborder="0"
+            allow="autoplay; fullscreen; picture-in-picture; clipboard-write"
+            title="En kväll mellan raderna"
+            class="vimeo"
+          ></iframe>
         </div>
       </div>
     </a>
@@ -217,11 +191,15 @@
     <!--block med video på vänster sida, skogen -->
     <a href="/Skogen.html">
       <div class="contentContainer" id="SkogenContainer">
-        <div class="loopContainer">
-          <img
-            src="https://cdn.glitch.me/3938cb0d-8b66-43e6-93d0-95eed83eb0d2/SKOGEN_1.gif?v=1736695447692"
-            class="homeGif"
-          />
+        <div class="loopLeft">
+          <iframe
+            src="https://player.vimeo.com/video/1035600372?autoplay=1&background=1&muted=1&loop=1&h=60178686dd&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479"
+            frameborder="0"
+            allow="autoplay; fullscreen; picture-in-picture; clipboard-write"
+            title="Skogen"
+            class="vimeo"
+          ></iframe>
+          <script src="https://player.vimeo.com/api/player.js"></script>
         </div>
         <div class="rightContainer">
           <svg
@@ -262,17 +240,12 @@
               d="M519.2,114.5c22.6-3.1,42.6,11.4,44.6,34.4,4.1,47-13.9,123.2-56.2,150-13.3,8.4-30.1.5-38.8-11-23.3-30.7-12.1-88.1-.6-122.3,10.2-30.3,16.3-46.4,50.9-51ZM511.7,140c-3.2-.7-4.2.8-5.7,3.2-3.7,5.7-13.1,58.3-14,68-.7,7.2-1.2,52.6,1.8,54.8,9.7-3.1,17.2-12.3,22.4-20.6,16.2-26.1,24.2-60.8,21.5-91.3l-25.9-6.1v-8Z"
             />
           </svg>
-
           <div class="textRight">
             <p id="SkogenText">
-              En liten varelse möter elden som orsakar förödelse i skogen.
-              ”Skogen” utforskar hur vi förhåller oss till vår ilska –
-              destruktiv men samtidigt nödvändig.
-              <br /><br />
-              ”Skogen” har visats på FRAME Sörmland 2024, Eskilstuna Kulturnatt 2024 och
-              visas nästa gång på Folk och Kultur 5–7 februari 2025.
-              <br /><br />
-              Musik av Tilde Edlund.
+              En liten varelse möter en eldversion av sig själv som orsakar
+              förödelse i skogen. "Skogen" utforskar hur vi förhåller oss till
+              vår egen ilska – destruktiv men samtidigt nödvändig.
+              <br /><br />Musik av Tilde Edlund.
             </p>
           </div>
         </div>
@@ -283,12 +256,6 @@
     <a href="/FoolsGold.html">
       <div class="contentContainer" id="FoolsGoldContainer">
         <div class="leftContainer">
-          <div class="loopContainerMobile">
-            <img
-              src="https://cdn.glitch.me/3938cb0d-8b66-43e6-93d0-95eed83eb0d2/FOOLSGOLD_1.gif?v=1736695956558"
-              class="homeGif"
-            />
-          </div>
           <svg
             id="FoolsGoldOrdbild"
             class="ordbild"
@@ -429,17 +396,21 @@
           </svg>
           <div class="textLeft">
             <p id="FoolsGoldText">
-              I musikvideon ”Fool's Gold” följer vi en man i hans eviga jakt på
+              I musikvideon "Fool's Gold" följer vi en man i hans eviga jakt på
               guld. <br /><br />Handling skriven av bandmedlemmarna i Air
               Traffic Controller.<br /><br />Kund: Air Traffic Controller
             </p>
           </div>
         </div>
-        <div class="loopContainerGone">
-          <img
-            src="https://cdn.glitch.me/3938cb0d-8b66-43e6-93d0-95eed83eb0d2/FOOLSGOLD_1.gif?v=1736695956558"
-            class="homeGif"
-          />
+        <div class="loopRight">
+          <iframe
+            src="https://player.vimeo.com/video/1035640703?autoplay=1&background=1&muted=1&loop=1&h=c3187e6b30&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479"
+            frameborder="0"
+            allow="autoplay; fullscreen; picture-in-picture; clipboard-write"
+            title="Fool's Gold"
+            class="vimeo"
+          ></iframe>
+          <script src="https://player.vimeo.com/api/player.js"></script>
         </div>
       </div>
     </a>
@@ -447,11 +418,15 @@
     <!-- det var inte hela världen men tråkigt ändå -->
     <a href="/InteHelaVarlden.html">
       <div class="contentContainer" id="InteHelaContainer">
-        <div class="loopContainer">
-          <img
-            src="https://cdn.glitch.me/3938cb0d-8b66-43e6-93d0-95eed83eb0d2/INTEHELAVARLDEN_1.gif?v=1736696342005"
-            class="homeGif"
-          />
+        <div class="loopLeft">
+          <iframe
+            src="https://player.vimeo.com/video/1035645351?autoplay=1&muted=1&background=1&loop=1&h=6eb34f6743&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479"
+            frameborder="0"
+            allow="autoplay; fullscreen; picture-in-picture; clipboard-write"
+            title="Det var inte hela världen, men det var tråkigt ändå"
+            class="vimeo"
+          ></iframe>
+          <script src="https://player.vimeo.com/api/player.js"></script>
         </div>
         <div class="rightContainer">
           <svg
@@ -1277,7 +1252,7 @@
             <p id="InteHelaText">
               ”Det var inte hela världen (men det var tråkigt ändå)” skildrar
               ögonblick där jag upplevt orättvis behandling kopplat till min
-              könsidentitet – i skolan, kontakt med vården och bland bekanta.
+              könsidentitet – i skolan, kontakt med vården och bland familj.
               Filmen utforskar de komplexa känslor som uppstår när jag ser
               tillbaka på dessa erfarenheter. <br /><br />Vinnare av Film i
               Sörmlands hederspris år 2024.
@@ -1291,12 +1266,6 @@
     <a href="/FemKonversationer.html">
       <div class="contentContainer" id="FemKonversationerContainer">
         <div class="leftContainer">
-          <div class="loopContainerMobile">
-            <img
-              src="https://cdn.glitch.me/3938cb0d-8b66-43e6-93d0-95eed83eb0d2/5KONVERSATIONER_1.gif?v=1736694888727"
-              class="homeGif"
-            />
-          </div>
           <svg
             id="FemKonversationerOrdbild"
             class="ordbild"
@@ -1446,20 +1415,29 @@
 
           <div class="textLeft">
             <p id="FemKonversationerText">
-              ”5 konversationer jag aldrig glömmer” är ett kärleksbrev till alla
+              "5 konversationer jag aldrig glömmer" är ett kärleksbrev till alla
               de konversationer jag minns många år efter att de inträffat.
             </p>
           </div>
         </div>
-        <div class="loopContainerGone">
-          <img
-            src="https://cdn.glitch.me/3938cb0d-8b66-43e6-93d0-95eed83eb0d2/5KONVERSATIONER_1.gif?v=1736694888727"
-            class="homeGif"
-          />
+        <div class="loopRight">
+          <iframe
+            src="https://player.vimeo.com/video/1035652541?muted=1&autoplay=1&background=1&h=af2162f7a4&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479"
+            frameborder="0"
+            allow="autoplay; fullscreen; picture-in-picture; clipboard-write"
+            title="5 konversationer jag aldrig glömmer"
+            class="vimeo"
+          ></iframe>
+          <script src="https://player.vimeo.com/api/player.js"></script>
         </div>
       </div>
     </a>
 
+    <!-- The footer holds our remix button — you can keep or delete it ✂ -->
+    <!--<footer class="footer">
+      <div class="links"></div>
+      <p>© 2024 Mika Hyvönen</p>
+    </footer>-->
     <link rel="stylesheet" href="/style.css" />
   </body>
 </html>
