@@ -217,6 +217,21 @@ a:hover {
   }
 }
 
+#showreelContainer {
+  border: none;
+  border-color: var(--yellow);
+  border-radius: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 2vw;
+  padding-bottom: 2vw;
+}
+
+.showreel {
+  width: 85vw;
+}
+
 .homeGif {
   width: 50vw;
   height: 30vw;
@@ -452,11 +467,20 @@ a:hover {
 }
 
 #LatinBakedOrdbild {
+  fill: var(--white);
   width: 60vw;
+  padding-top: 8vw;
+  padding-bottom: 4vw;
 }
 
 @media screen and (max-width: 1100px) {
   .ordbildSubpage {
+    width: 80vw;
+  }
+}
+
+@media screen and (max-width: 1100px) {
+  #LatinBakedOrdbild {
     width: 80vw;
   }
 }
