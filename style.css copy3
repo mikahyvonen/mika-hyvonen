@@ -3,7 +3,7 @@
   --black: #161314;
   --white: #fbf3ef;
   --blue: #0041cc;
-  --border: none;
+  --border: dotted;
   --transition: 0.1s;
   --font: "DM sans", sans-serif;
   color-scheme: light;
@@ -11,9 +11,6 @@
 
 hr {
   visibility: hidden;
-  width: 100%;
-  border-style: var(--dotted);
-  border-color: orange;
 }
 
 html {
@@ -33,11 +30,11 @@ body {
   padding: 0px;
   overflow-y: scroll;
   ::selection {
-    /* Change highlight background color to black */
-    background: var(--yellow);
-    /* Change highlight text color to red */
-    color: var(--black);
-  }
+  /* Change highlight background color to black */
+  background: var(--yellow);
+  /* Change highlight text color to red */
+  color: var(--black);
+}
 }
 
 h2 {
@@ -55,10 +52,6 @@ h2 {
   h2 {
     font-size: 11pt;
   }
-}
-
-#cvtext2 {
-  font-size: 11pt;
 }
 
 p {
@@ -86,7 +79,6 @@ a {
   text-decoration: none;
   transition-duration: 0.1s;
   opacity: 1 !important;
-  font-family: var(--font);
 }
 
 .ingress {
@@ -160,20 +152,6 @@ a:hover {
 
 @media screen and (max-width: 1100px) {
   #star {
-    width: 50vw;
-    height: 35vw;
-    z-index: -2;
-    position: absolute;
-    top: 5vw;
-    left: -23vw;
-    border-style: var(--border);
-    border-color: red;
-    display: inline;
-  }
-}
-
-@media screen and (max-width: 500px) {
-  #star {
     width: 35vw;
     height: 35vw;
     z-index: -2;
@@ -216,12 +194,11 @@ a:hover {
   border-color: green;
   border-style: var(--border);
   display: flex;
-  flex-wrap: wrap;
   align-items: center;
   justify-content: center;
   transition-duration: var(--transition);
   /*position: relative;*/
-  position: relative; /* Ensure positioning within the container */
+
 }
 
 @media screen and (max-width: 1100px) {
@@ -239,7 +216,7 @@ a:hover {
 
 @media screen and (max-width: 1100px) {
   #tagline {
-    width: 60vw;
+    width: 69vw;
     margin-left: 17vw;
   }
 }
@@ -259,55 +236,6 @@ a:hover {
   width: 85vw;
 }
 
-#buttonContainer {
-  flex-basis: 100%;
-  border: var(--border);
-  border-color: orange;
-  text-align: right;
-}
-
-#english {
-  position: absolute;
-  z-index: 10;
-  right: 2vw;
-  top: 1vw;
-}
-
-#englishLink {
-  font-family: var(--font);
-  position: absolute;
-  right: 0vw;
-}
-/*
-#englishContainer {
-  margin-top: 2vw;
-}
-
-#English {
-  position: absolute;
-  left: 80vw;
-  border: solid;
-  border-radius: 30px;
-  border-color: var(--yellow);
-  background-color: var(--black);
-  width: 100px;
-  height: 40px;
-  color: var(--white);
-  transition-duration: 0.1s;
-  font-family: var(--font);
-  font-weight: 400;
-  font-style: normal;
-  font-size: 12pt;
-  line-height: 150%;
-}
-
-#English:hover {
-  background-color: var(--yellow);
-  transition-duration: 0.1s;
-  cursor: pointer;
-  color: var(--black);
-}*/
-
 #cv {
   border: solid;
   border-radius: 30px;
@@ -317,6 +245,7 @@ a:hover {
   height: 40px;
   left: 83vw;
   top: 48vh;
+  position: absolute;
   color: var(--white);
   transition-duration: 0.1s;
   font-family: var(--font);
@@ -324,13 +253,6 @@ a:hover {
   font-style: normal;
   font-size: 16pt;
   line-height: 150%;
-}
-
-@media screen and (min-width: 1100px) {
-  #cv {
-    margin-top: -4vw;
-    margin-right: 4vw;
-  }
 }
 
 #cv:hover {
@@ -354,14 +276,6 @@ a:hover {
   width: 69vw;
   padding-left: 40vw;
   display: none;
-}
-
-@media screen and (max-width: 1100px) {
-  #cvContainer {
-    width: 60vw;
-    padding-left: 17vw;
-    margin-left: 0vw;
-  }
 }
 
 .homeGif {
@@ -411,10 +325,6 @@ a:hover {
     margin-bottom: 15vw;
     margin-top: 15vw;
   }
-}
-
-#EnKvallContainer {
-  margin-top: 3vw;
 }
 
 #EnKvallContainer:hover #EnKvallText {
@@ -584,7 +494,7 @@ a:hover {
 }
 
 #hit {
-  height: 39vw;
+  height:39vw;
 }
 
 .SubpageContainer {
@@ -745,26 +655,23 @@ a:hover {
   right: 5%;
 }
 
+
 /* this is only for the hover function in index */
 #hover-container {
-  position: relative;
-  display: inline-block;
-}
+            position: relative;
+            display:inline-block;
+        }
 
-#hover-container img {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 200px;
-  height: auto;
-  display: none;
-  pointer-events: none; /* Prevent image from interfering with mouse events */
-}
+        #hover-container img {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 200px;
+            height: auto;
+            display: none;
+            pointer-events: none; /* Prevent image from interfering with mouse events */
+        }
 
-#hover-container:hover img {
-  display: block;
-}
-
-.hoveringImage {
-  z-index: 1;
-}
+        #hover-container:hover img {
+            display: block;
+        }
