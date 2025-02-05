@@ -24,7 +24,7 @@
       <button id="English">English</button></div>
     <div id="logoHeader">
       <!--star-->
-    <div id="english"><a href="/indexEn.html">English</a></div>
+    <div id="english"><a href="/indexEn.html">english</a></div>
     <div id="taglineHolder">
       <svg
         id="star"
@@ -72,8 +72,15 @@
           target="_blank"
           rel="noopener noreferrer"
           >Instagram</a
-        >.
+        >.<br />
+        <hr />
+        <span id="cvtext2">
+          Beckmans designhögskola 2023-2026, NORD DDB 2022-2023, Beckmans
+          Kvällsskola 2021-2022</span>
       </h2>
+      <div id="buttonContainer">
+        <button id="cv">CV</button>
+      </div>
     </div>
     <!--<div id="cv">
           <p id="cvText">
@@ -83,9 +90,9 @@
 
     <div id="cvContainer">
       <p id="cvContainerText">
-        2023–2026 Beckmans Designhögskola <br />
-        2022–2023 NORD DDB (Jr Studio Designer) <br />
-        2021–2022 Beckmans Kvällsskola
+        2023-2026 Beckmans Designhögskola <br />
+        2022-2023 NORD DDB (Jr Studio Designer) <br />
+        2021-2022 Beckmans Kvällsskola
       </p>
     </div>
 

@@ -57,10 +57,6 @@ h2 {
   }
 }
 
-#cvtext2 {
-  font-size: 11pt;
-}
-
 p {
   color: var(--white);
   font-family: var(--font);
@@ -270,7 +266,7 @@ a:hover {
   position: absolute;
   z-index: 10;
   right: 2vw;
-  top: 1vw;
+  top: 2vw;
 }
 
 #englishLink {
@@ -762,6 +758,65 @@ a:hover {
 }
 
 #hover-container:hover img {
+  display: block;
+}
+
+/* this is only for the hover function in index */
+#hover-container2 {
+  position: relative;
+  display: inline-block;
+}
+
+#hover-container2 img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 200px;
+  height: auto;
+  display: none;
+  pointer-events: none; /* Prevent image from interfering with mouse events */
+}
+
+#hover-container2:hover img {
+  display: block;
+}
+/* this is only for the hover function in index */
+#hover-container3 {
+  position: relative;
+  display: inline-block;
+}
+
+#hover-container3 img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 200px;
+  height: auto;
+  display: none;
+  pointer-events: none; /* Prevent image from interfering with mouse events */
+}
+
+#hover-container3:hover img {
+  display: block;
+}
+
+/* this is only for the hover function in index */
+#hover-container4 {
+  position: relative;
+  display: inline-block;
+}
+
+#hover-container4 img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 200px;
+  height: auto;
+  display: none;
+  pointer-events: none; /* Prevent image from interfering with mouse events */
+}
+
+#hover-container4:hover img {
   display: block;
 }
 
