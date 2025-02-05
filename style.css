@@ -751,6 +751,10 @@ a:hover {
   display: inline-block;
 }
 
+#hover-container:hover img {
+  display: block;
+}
+
 #hover-container img {
   position: absolute;
   top: 0;
@@ -759,10 +763,6 @@ a:hover {
   height: auto;
   display: none;
   pointer-events: none; /* Prevent image from interfering with mouse events */
-}
-
-#hover-container:hover img {
-  display: block;
 }
 
 .hoveringImage {
