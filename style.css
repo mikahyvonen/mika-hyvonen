@@ -168,7 +168,7 @@ a:hover {
     left: -23vw;
     border-style: var(--border);
     border-color: red;
-    display: inline;
+    display: none;
   }
 }
 
@@ -182,7 +182,7 @@ a:hover {
     left: -13vw;
     border-style: var(--border);
     border-color: red;
-    display: inline;
+    display: none;
   }
 }
 
@@ -239,8 +239,9 @@ a:hover {
 
 @media screen and (max-width: 1100px) {
   #tagline {
-    width: 60vw;
-    margin-left: 17vw;
+    width: 80vw;
+    margin-left: 0vw;
+    margin-bottom: 2vw;
   }
 }
 
